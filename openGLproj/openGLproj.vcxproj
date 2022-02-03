@@ -11,12 +11,14 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="src\lddw\Log.h" />
     <ClInclude Include="src\lddw.h" />
     <ClInclude Include="src\lddw\Application.h" />
     <ClInclude Include="src\lddw\Core.h" />
     <ClInclude Include="src\lddw\EntryPoint.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="src\lddw\Log.cpp" />
     <ClCompile Include="src\lddw\Application.cpp" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
@@ -72,6 +74,7 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>LW_PLATFORM_WINDOWS;LW_BUILD_DLL;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>$(SolutionDir)openGLproj\vendor\spdlog\include;</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -87,6 +90,7 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>$(SolutionDir)openGLproj\vendor\spdlog\include;</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>

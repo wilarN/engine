@@ -3,7 +3,7 @@
  // For use by lddw applications.
 
 #include "lddw/Application.h"
-
+#include "lddw/Log.h"
 
 // ----Entry point---------------d
 // 

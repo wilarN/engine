@@ -1,0 +1,3 @@
+[submodule "openGLproj/vendor/spdlog"]
+	path = openGLproj/vendor/spdlog
+	url = https://github.com/gabime/spdlog
