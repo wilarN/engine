@@ -8,7 +8,7 @@ int main(int argc, char** argv)
 {
 	lddw::Log::Init();
 	LW_CORE_WARN("Initialized log!");
-	int a = 7;
+	int = 7;
 	LW_ERROR("DOLBAEB ENGINE SUCC.", a);
 	LW_CORE_INFO("Better than frostbite 100, (at least not worth leaking).");
 
