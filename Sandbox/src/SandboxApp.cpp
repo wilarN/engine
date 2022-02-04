@@ -2,14 +2,13 @@
 
 class Sandbox : public lddw::Application {
 public:
-	Sandbox() {
-
+	Sandbox() 
+	{
 	}
 
-	~Sandbox() {
-
+	~Sandbox() 
+	{
 	}
-
 };
 
 lddw::Application* lddw::CreateApplication() {
